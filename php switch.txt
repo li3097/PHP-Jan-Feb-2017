@@ -1,0 +1,197 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <p>
+      <?php
+      $items = 8;
+        if ($items > 10) {// Write your if/elseif/else statement here!
+            echo "The condition is true";
+        }
+        else{
+            echo "The condition is false";
+        }
+      ?>
+    </p>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+    $items = 12;
+      if(items > 4) {
+        echo "You may purchase";
+        }
+      elseif (items == 4) {
+          echo "Maybe consider something else";
+      }
+      else{
+         echo "You need more money";
+      }
+    ?>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+    switch (2) {
+        case 0:
+            echo 'The value is 0';
+            break;
+        case 1:
+            echo 'The value is 1';
+            break;
+        case 2:
+            echo 'The value is 2';
+            break;
+        default:
+            echo "The value isn't 0, 1 or 2";
+    }
+    ?>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+    $fruit = "Apple";
+    
+    switch ($fruit) {
+        case 'Apple':
+            echo "Yummy.";
+            break;
+        default:
+            echo "None of the above";
+    }
+    
+    ?>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+    $i = 5;
+    
+    switch ($i) {
+        case 0:
+            echo '$i is 0.';
+            break;
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+            echo '$i is somewhere between 1 and 5.';
+            break;
+        case 6:
+        case 7:
+            echo '$i is either 6 or 7.';
+            break;
+        default:
+            echo "I don't know how much \$i is.";
+    }
+    ?>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+    $i = 5;
+    
+    switch ($i):
+        case 0:
+            echo '$i is 0.';
+            break;
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+            echo '$i is somewhere between 1 and 5.';
+            break;
+        case 6:
+        case 7:
+            echo '$i is either 6 or 7.';
+            break;
+        default:
+            echo "I don't know how much \$i is.";
+    endswitch;
+    ?>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+    <?php
+     $i = coins;
+     
+     switch ($i):
+         case 0:
+         case 1:
+         case 2:   
+             echo '$1 is pennies';
+             break;
+         case 3:
+             echo '$i is nickles';
+             break;
+         default:
+             echo 'None of the above are coins.';
+             break;
+        endswitch;     
+             
+    ?>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
