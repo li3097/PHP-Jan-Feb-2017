@@ -1,0 +1,111 @@
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+          $length = strlen("lisa");
+          echo $length;
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+          // Here we define the function...
+          function helloWorld() {
+            echo "Hello world!";
+          }
+          
+          // ...and here we call it!
+          helloWorld();
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        // Write your function below!
+        function displayName() {
+            echo "displayName";
+        }
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        // Write your function below!
+        function displayName() {
+            echo "displayName";
+        }
+        displayName();
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <?php
+        function returnName() {
+            echo "returnName";
+        }
+      ?>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        function greetings($name) {
+            echo "greetings," . Lisa . "!";
+        }
+        greetings();
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        $name = "lisa";
+        $age = "26";
+        function aboutMe($name, $age) 
+         {echo "Hello! My name is" . $name . "and I am" . $age . "years old.";}
+        aboutMe("lisa", "26");
+        ?>
+      </p>
+    </body>
+</html>
